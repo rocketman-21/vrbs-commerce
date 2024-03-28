@@ -4,7 +4,7 @@ export default function LogoIcon(props: React.ComponentProps<'svg'>) {
   return (
     <svg
       className={clsx('h-4 w-4 fill-black dark:fill-white', props.className)}
-      shape-rendering="crispEdges"
+      shapeRendering="crispEdges"
       {...props}
       xmlns="http://www.w3.org/2000/svg"
       aria-label={`${process.env.SITE_NAME} logo`}
